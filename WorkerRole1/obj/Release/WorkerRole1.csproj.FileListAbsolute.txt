@@ -1,0 +1,1 @@
+c:\users\wendy\documents\visual studio 2013\Projects\AzureCloudService2\WorkerRole1\obj\Release\WorkerRole1.csprojResolveAssemblyReference.cache

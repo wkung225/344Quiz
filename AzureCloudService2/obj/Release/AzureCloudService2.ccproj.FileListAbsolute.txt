@@ -1,0 +1,2 @@
+c:\users\wendy\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\bin\Release\ServiceConfiguration.cscfg
+c:\users\wendy\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\bin\Release\ServiceDefinition.csdef
