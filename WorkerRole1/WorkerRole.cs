@@ -29,9 +29,11 @@ namespace WorkerRole1
             while (true)
             {
                 Thread.Sleep(10000);
-                string numbers = queue.GetMessage();
+                var numbers = queue.GetMessage().Skip(0)
+                    .Select(x => StringSplitOptions(','))
                 int[] numArray = numbers.Split(',');
-                int numSum = Convert.ToInt32(sum);
+                
+                int numSum = 0;
                 TableOperation insertOperation = TableOperation.Insert(new Number(numSum));
                 table.Execute(insertOperation);
             }

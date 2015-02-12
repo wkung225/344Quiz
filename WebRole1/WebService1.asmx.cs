@@ -41,7 +41,7 @@ namespace WebRole1
             table = tableClient.GetTableReference("numberStorage");
             table.CreateIfNotExists();
 
-            string message = n1.ToString() + ", " + n2.ToString() + ", " n3.ToString();
+            string message = n1.ToString() + ", " + n2.ToString() + ", " + n3.ToString();
 
             //foreach (int n in numArray)
             //{
